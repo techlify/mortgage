@@ -1,5 +1,9 @@
-# mortgage
+# Mortgage
 A mortgage calculator package, which exposes API for simple mortgage calculation.
+
+# Installation
+composer require joshbrw/laravel-module-installer
+composer require techlify/mortgage-module
 
 # Usage
 Exposes the following POST API for mortgage calculation and amoritization.
