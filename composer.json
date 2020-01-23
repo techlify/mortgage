@@ -1,0 +1,26 @@
+{
+    "name": "techlify/mortgage-module",
+    "description": "A mortgage calculator package, which exposes API for simple mortgage calculation",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "Gokula Prasanna",
+            "email": "gokula@techlify.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Mortgage\\Providers\\MortgageServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Mortgage\\": ""
+        }
+    }
+}
