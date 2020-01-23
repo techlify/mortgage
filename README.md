@@ -14,11 +14,11 @@ Calculate the mortgage for the given model.
 
 Request body:
 {
-  "loanAmount":<number>,   //principal
-  "rpa":<number>,          //Rate per annum
-  "loanTerm":<number>,     //Terms in years
-  "extraAmount"?:<number>, // Monthly extra amount (optional)
-  "downPayment"?:<number>  //Initial Down Payment (optional)
+  "loanAmount":<number>,   
+  "rpa":<number>,          
+  "loanTerm":<number>,     
+  "extraAmount"?:<number>, 
+  "downPayment"?:<number>  
 }
   
   
@@ -28,11 +28,11 @@ Calculate the amortization schedule for the given model
 
 Request body:
 {
-  "loanAmount":<number>,   //principal
-  "rpa":<number>,          //Rate per annum
-  "loanTerm":<number>,     //Terms in years
-  "extraAmount"?:<number>, // Monthly extra amount (optional)
-  "downPayment"?:<number>  //Initial Down Payment (optional)
+  "loanAmount":<number>,   
+  "rpa":<number>,          
+  "loanTerm":<number>,     
+  "extraAmount"?:<number>, 
+  "downPayment"?:<number>  
 }
   
   
